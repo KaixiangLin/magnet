@@ -7,8 +7,6 @@ from models.ddpg_agent import DdpgAgent
 from env_processing.shaping import *
 from utils_for_game.const import *
 from utils_for_game.utils import *
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 parser = argparse.ArgumentParser(description='ma-graph')
 parser.add_argument('--seed', type=int, default=1, metavar='S',

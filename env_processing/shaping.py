@@ -1,4 +1,6 @@
 import numpy as np
+from utils_for_game.const import *
+from utils_for_game.utils import *
 
 REWARD_FOR_KILLING = 100
 REWARD_FOR_KILLING_YOURSELF = -100

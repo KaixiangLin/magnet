@@ -2,6 +2,8 @@ from gym import Env
 
 OBSERVATION_SPASE = 38 * 11
 
+from utils_for_game.const import *
+from utils_for_game.utils import *
 
 class EnvWrapper(Env):
     """The abstract environment class that is used by all agents. This class has the exact
